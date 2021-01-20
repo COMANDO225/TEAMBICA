@@ -1,0 +1,177 @@
+*{
+    font-family: $titulo-font-family;
+}
+body{
+    font-family: $parrafos-font-family;
+    background-color: #F0F0F0 !important;
+}
+
+.bg-primary .navbar-brand{
+    color: white;
+    font-family: $font-family-sans-serif;
+    font-size: 1.4rem;
+    &:hover{
+        color: white;
+    }
+}
+
+a.nav-link{
+    color: white !important;
+}
+
+trix-editor{
+    min-height: 160px;
+    height: auto !important;
+
+}
+.titulo{
+    font-family: $titulo-font-family !important;
+    font-weight: 700 !important;
+    font-style: normal;
+}
+.subtitulo{
+    font-family: $titulo-font-family !important;
+    font-weight: 600 !important;
+    font-style: normal;
+}
+icono {
+    width: 16px;
+}
+.barra {
+    background-color: #ED4646!important
+}
+.fecha {
+    color: #ED4646 !important
+}
+.receta-meta p {
+    font-size: 12px;
+    font-weight: bold;
+}
+.navbar-light  {
+    .navbar-nav {
+        .nav-link{
+            color: #FFF;
+            font-size: 1.4rem;
+                &:focus,
+                &:hover {
+                    color: #FFF;
+            }
+        }
+    }
+}
+
+.titulo-categoria {
+    font-family: 'Cabin', sans-serif;
+    color: #333;
+    font-size: 1.8rem;
+    // border-bottom: 3px solid #ED4646 !important;
+    display: inline-block;
+    padding-bottom: .5rem;
+    padding-right: 2rem;
+    text-align: center !important;
+}
+.btn-receta,
+.btn-receta:hover {
+    background-color: #ED4646 !important;
+    border: none;
+}
+
+
+.owl-carousel .owl-stage { display: flex; }
+.card {
+    display: flex;
+    flex: 1 0 auto;
+    height: 100%;
+}
+.card-body {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+
+
+.categorias-bg {
+    background-color: #fff ;
+    .nav-link {
+        color: #222!important;
+        display: inline-block;
+        padding-top: .5rem;
+        padding-bottom: .5rem;
+        overflow: hidden;
+        position: relative;
+        text-decoration: none;
+        font-size: 1.2rem!important;
+        text-transform: uppercase;
+        font-weight: bold;
+    
+}
+}
+.nav-item .btnregistrar{
+    color: #01BE86 !important;
+    border-radius: 50px;
+    padding: 5px 20px !important;
+    font-size: 18px !important;
+}
+
+.nav-item .btniniciar{
+    border-radius: 50px;
+    padding: 5px 20px !important;
+    margin-right: 20px;
+    background: #01BE86;
+    border-color: #01BE86;
+    font-size: 18px !important;
+    transition: all ease-in .2s;
+}
+
+.nav-item .btniniciar:hover{
+    background: #01BE86;
+    border-color: #01BE86;
+    box-shadow: 0px 0px 10px 4px #01BE86;
+}
+
+
+
+
+#app nav.navbar{
+    background: #131214 !important;
+    color: #FFF;
+}
+
+.logotitulo.navbar-brand{
+    color: #FFF;
+    font-family: $font-family-sans-serif;
+    font-size: 30px;
+    transition: all ease-in-out .2s;
+}
+.logotitulo.navbar-brand:hover{
+    color: #01BE86 !important;
+}
+
+.card-body .titulo{
+    color: black !important;
+    font-size: 18px;
+}
+
+.container .titulo-categoria{
+    text-align: center !important;
+    display: block !important;
+}
+
+// .background{
+//     position: relative;
+//     object-fit: cover;
+//     right: 0;
+//     bottom: 0;
+//     min-width: 100% !important;
+//     min-height: 100% !important;
+//     width: auto;
+//     height: 100px !important;
+//     background: url('https://images.pexels.com/photos/1379636/pexels-photo-1379636.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+//     background-position: center center !important;
+//     background-size: cover !important;
+//     z-index: 10 !important;
+//     margin-top: 0px !important;
+// }
